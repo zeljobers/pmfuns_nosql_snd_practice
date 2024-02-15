@@ -20,3 +20,5 @@
             - beta.node2vec
         - Link Prediction (topoplogical one)
             - alpha.linkprediction.totalNeighbor
+- `./gradivo/*` - (Serbian) classes material (image guides, pdf article) of the practice and lectures.
+- `/misc/*` - (Serbian) screenshots of planning of this project by me.
