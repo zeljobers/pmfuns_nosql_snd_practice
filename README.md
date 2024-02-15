@@ -1,0 +1,22 @@
+# 2nd PMF UNS project for the subject of NOSQL Databases - Neo4j 
+- Database : [Brazillian eCommerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/discussion?resource=download)
+- Environment : Neo4j Desktop (2021)
+- Mentors: dr. Lidija Fodor, dr. Danijela Boberić Krstićev
+- `./src/` contains:
+    - `my_cypher_direct.cql` - Cypher queries for generating of node entities and relations for DB out of all available `*.csv` files (some of them were modified via python scripts)
+    - `new gds one.cql` - Queries for working with approachable [Graph Data Science](https://neo4j.com/docs/graph-data-science/current/algorithms/) Neo4j libraries for searching and statistical analysis :
+        - centrality 
+            - pageRank (memory estimation, stats), 
+            - degree 
+        - community detection 
+            - (Alpha) Approximate Maximum k-cut,
+            - louvain
+            - labelPropagation
+        - path finding
+            - allShortestPaths.dijkstra soruce-target
+        - similarity
+            - KNN (2 examples with different outcomes)
+        - NODE EMBEDDING 
+            - beta.node2vec
+        - Link Prediction (topoplogical one)
+            - alpha.linkprediction.totalNeighbor
